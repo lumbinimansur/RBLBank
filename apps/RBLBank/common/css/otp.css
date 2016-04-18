@@ -1,0 +1,108 @@
+@font-face {
+    font-family:"Helvetica Neue";
+    src:url("../fonts/HelveticaNeue-Regular.otf");
+}
+
+@font-face {
+    font-family:"Helvetica Neue Light";
+    src:url("../fonts/HelveticaNeue-Light.otf");
+}
+@font-face {
+    font-family:"Helvetica Neue";
+    src:url("../fonts/HelveticaNeue-Bold.otf");
+}
+@font-face {
+    font-family:"Helvetica Neue Bold";
+    src:url("../fonts/HelveticaNeue-BoldCond.otf");
+}
+.verify{
+
+	text-align:center;
+
+	color:#9B9B9B;
+}
+#verifyid{
+	font-size:40px;
+	  font-family:"Helvetica Neue Light";
+	  margin-top:25%;
+}
+#smalltextid{
+	font-size:17px;
+	  font-family:"Helvetica Neue Light";
+}
+.button1 {
+    color: white;
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+.btn{
+	border:1px solid #2D377A;color: #2D377A; background-color: white;width:45%;height:50px;
+}
+.btn2{
+	 background-color: #2D377A; border:1px solid #2D377A;width:45%;height:50px;
+}
+.pwd{
+	margin-top:15%;width:50%; padding-left:15px;margin-left:22%;border-bottom:1px solid #ddd;color:#9B9B9B;
+}
+.starpwd{
+	border:0px solid #ddd; font-size:70px;color:#9B9B9B;background-color:#f5f5f5;
+}
+#btngrp{
+margin-top:20%;margin-left:5%;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal1 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #888;
+    width: 70%;
+    height:50%;
+          font-family:"Helvetica Neue Light";
+      text-align: center;
+     color:black;
+     line-height:90%
+}
+.close{
+	margin-top: 5%;
+}
+.close1{
+	margin-top: 5%;
+}
+#textheight{
+	padding:15px;
+}
+
+

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'ocr-a';
+    src: url("../fonts/ocr-a.ttf") ;
+}
+@font-face {
+    font-family:"Helvetica Neue";
+    src:url("../fonts/HelveticaNeue-Regular.otf");
+}
+
+@font-face {
+    font-family:"Helvetica Neue Light";
+    src:url("../fonts/HelveticaNeue-Light.otf");
+}
+@font-face {
+    font-family:"Helvetica Neue";
+    src:url("../fonts/HelveticaNeue-Bold.otf");
+}
+@font-face {
+    font-family:"Helvetica Neue Bold";
+    src:url("../fonts/HelveticaNeue-BoldCond.otf");
+}
+@font-face {
+    font-family: 'ocr-a';
+    src: url(css/ocr-a.ttf) format('truetype');
+}
+.body{
+ 
+  background-image: url("../images/BG.png");
+  background-size: 100% 100%;
+  width:100%;
+height:100%;
+top:0px;
+left:0px;
+position:fixed;
+overflow-x:hidden;
+
+ 
+}
+
+.card {
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+    padding:0px;
+    margin:15px;
+    overflow:hidden;
+    radius: 5px;
+    background-color: #1565c0;
+}
+.username{
+ margin-top:10px;
+ width:92%;
+ border:1px solid #ddd;
+ background-color:transparent;
+ height:45px;
+ margin:10px;
+ color:white;
+ 
+ 
+}
+.submit{
+ margin-top:10px;
+ border:0px ;
+ width:92%;
+ background-color:red;
+ text-align:center;
+ height:55px;
+ margin:10px;
+ color:white;
+ font-size:16px;
+}
+.btn1{
+ 
+ background-color:transparent;
+ border:0px;
+ color:white;
+ font-size:16px;
+} 
+.heading1{
+	text-align:center; color: #fff; margin-top:8%;font-size:60px;padding-top:14%;
+}
+.heading2{
+	text-align:center; color: #fff;font-size:17px;
+}
+#separator{
+	color:white;
+}
+
+#input_container {
+   position: relative;
+    padding: 0;
+    margin: 0;
+    /* background: #ddd; */
+    /* width: 100%; */
+    border: 1px solid white;
+    margin: 15px;
+}
+#input {
+   margin: 0;
+    /* padding-left: 30px; */
+    width: 90%;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+        margin-left: 50px;
+            color: white;
+}
+#input_img {
+    position:absolute;
+    bottom:6px;
+    left:10px;
+    width:30px;
+    height:30px;
+}
+.registerbtn{
+ margin:10px;
+margin-bottom:18%;
+}

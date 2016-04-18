@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'ocr-a';
+    src: url(css/ocr-a.ttf) format('truetype');
+}
+.visabackground{
+	  background-image: url("../images/bg_visa.png");
+	   background-size:cover;
+	   height:40%;
+	  width:100%;
+	  margin-top: 3px;
+	  margin-button: 1px;
+	 
+}
+
+.visabackground1{
+	  background-image: url("../images/bg_master_card.png");
+	   background-size:cover;
+	   height:40%;
+	  width:100%;
+	  margin-right: 4px;
+	  margin-top: 5px;
+	  margin-button: 2px;
+	
+}
+
+.pic1{
+	margin-left: 35%;
+    margin-top: 5%;
+}
+.space{
+	margin-top:3%;
+}
+.space4{
+	margin-top:3%;
+}
+
+
+.floatdiv{
+ 
+	color:white;
+	font-family: 'ocr-a';
+	font-size:22px;
+	width: 25%;
+	 font-weight: 600;
+ font-size: 20px;
+ margin-right:7%;
+}
+.cardholder{
+	
+	font-size:15px;
+	float:left;
+	padding-bottom:10px;
+	margin-left:12%;
+	margin-top:6%;
+}
+
+.card{
+	float:right;
+	margin-right:15%;
+}
+.space2{
+	float:right;
+	margin-right:10%;
+	margin-top:20px;
+}
+
+.cardholderclass{
+	float:left;
+	 width:100%;
+	margin-top:10px
+}
+.name{
+	margin-left:12%;
+	color:white;
+	font-size:20px;
+	float:left
+}
+.date{
+	float:right;
+	margin-right:10%;
+	color:white;
+	font-size:20px;
+	font-family:ocr-a;
+}
+.table1{
+	width:100%;height:15%;
+	marrgin:-10px
+}
+.table2{
+	width:100%;height:80%;border-bottom:1px solid #ddd;
+}
+.rupee{
+	text-align:center;width:30%;color:green;font-size:22px;
+}
+table, th, td {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+}
+#datefont{
+	font-size:15px;
+	color:#ddd;
+}
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:100%;
+    background-color:white
+}
+.inputrup{
+	color:red;
+	height:12px;
+	width:12px;
+}
+.roundletters{
+	background-color:red;
+	border-radius:100%;
+	text-align:center;
+	font-size:25px;
+	color:white;
+}
+
+.circle1 {
+	width: 55px;
+	height: 55px;
+
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-align:center;
+	color:white;
+line-height:50px;
+	font-size:20px;
+}
+#colorA{
+	background-color:red;
+}
+#colorM{
+	background-color:yellow;
+}
+#colorF{
+	background-color:#1dbd90;
+}
+.table3{
+	width:100%;border-bottom:1px solid #ddd;
+}
